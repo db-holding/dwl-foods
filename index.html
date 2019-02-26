@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DWL Foods International Inc.</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      html, body {
+        font-family: verdana, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        height: 100%;
+        width: 100%;
+      }
+
+      body {
+        align-items: center;
+        background: radial-gradient(
+          ellipse at center,
+          rgba(245,130,32) 0%,
+          rgba(216,33,40) 100%
+        );
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      #content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      img {
+        margin: auto;
+        width: 25rem;
+      }
+
+      #update-message {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+      }
+
+      #update-message > p {
+        color: white;
+        padding: 0 2rem 0 2rem;
+        max-width: 17rem;
+      }
+
+      #update-message > p:not(:last-child) {
+        border-right: 0.1rem solid white;
+      }
+    </style>
+    <div id="content">
+      <img src="./white-logo.svg">
+
+      <div id="update-message">
+        <p>We are updating our site, please come back later.</p>
+        <p>Estamos actualizando nuestro sitio, por favor vuelva más tarde.</p>
+        <p>Estamos atualizando nosso site, por favor volte mais tarde.</p>
+      </div>
+    </div>
+  </body>
+</html>
