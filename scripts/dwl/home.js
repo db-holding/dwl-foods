@@ -57,7 +57,6 @@ const HOME_ANIMATION = new p5(sketch => {
     }
   }
 
-
   // All trails share the same origin.
   const TRAIL_ORIGIN = {
   	x: 740,
