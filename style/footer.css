@@ -1,0 +1,72 @@
+/**
+ * Copyright © 2019 Alexandre Borela <alexandre@borela.tech>
+ *
+ * NOTICE: All information contained herein is, and remains the property of
+ * Alexandre Borela and his suppliers, if any. The intellectual and technical
+ * concepts contained herein are proprietary to Alexandre Borela and his
+ * suppliers and may be covered by patents, patents in process, and are
+ * protected by trade secret or copyright law. Dissemination of this information
+ * or reproduction of this material is strictly forbidden unless prior written
+ * permission is obtained from Alexandre Borela.
+ */
+
+#footer {
+  color: white;
+  background-color: #202020;
+}
+
+#footer-content {
+  display: flex;
+  margin: .8em auto;
+  max-width: 60em;
+}
+
+#footer nav {
+  padding-right: 2em;
+}
+
+#footer nav:nth-child(2) {
+  padding-right: 6em;
+}
+
+#footer nav > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 4em;
+}
+
+#footer h1 {
+  color: #f26f00;
+  font-size: .75em;
+  margin-bottom: .75em;
+  text-transform: uppercase;
+}
+
+#footer a {
+  color: white;
+  font-weight: bold;
+  font-size: .625em;
+  margin: 0 1em .75em 0;
+}
+
+#footer-content .space {
+  flex-grow: 1;
+}
+
+#footer .copyright {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .copyright .logo {
+  height: 2em;
+  margin-bottom: .4em;
+}
+
+#footer .copyright p {
+  font-size: .625em;
+  font-weight: bold;
+  line-height: 1.5em;
+  text-align: center;
+}
