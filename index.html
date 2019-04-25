@@ -26,7 +26,7 @@
         >
         <nav>
           <a href="#/home">Início</a>
-          <a href="#/about">Institucional</a>
+          <a href="#/institutional">Institucional</a>
           <div id="dropdown">
             <h1>Produtos</h1>
             <div id="dropdown-content">
@@ -55,11 +55,21 @@
           data-transition="fade"
           id="home"
         >
-          <p>
+          <p data-lang="pt">
             <span class="since">Desde 2003</span>
             <span class="moreThan">Mais<br/>de</span>
             <span class="number">100.000.000</span>
             <span class="tons">toneladas<br>negociadas</span>
+          </p>
+
+          <p
+            data-lang="en"
+            hidden
+          >
+            <span class="since">Since 2003</span>
+            <span class="moreThan">More<br/>than</span>
+            <span class="number">100.000.000</span>
+            <span class="tons">tons<br>traded</span>
           </p>
         </section>
 
@@ -67,33 +77,18 @@
 
         <section
           class="slide"
-          id="products"
-        >
-          <div class="dwl-slide">
-            <div class="image">
-            </div>
-            <div class="text">
-              <h1>Produtos</h1>
-              <section data-autoslide=100>
-                ...
-              </section>
-            </div>
-          </div>
-        </section>
-
-        <!--/////////////////////////////////////////////////////////////////-->
-
-        <section
-          class="slide"
           data-background="images/port.jpg"
-          id="about"
+          id="institutional"
         >
           <div class="dwl-slide">
             <div class="image">
             </div>
             <div class="text">
               <h1>Institucional</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   A DWL internarional Foods atua no comércio internacional desde
                   2003 importando, exportando e distribuindo mais de 30 tipos de
@@ -135,7 +130,10 @@
             </div>
             <div class="text">
               <h1>Café</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   A Produção de café no Brasil é responsável por cerca de um
                   terço da produção mundial de café, o que faz o país ser de
@@ -174,7 +172,10 @@
             </div>
             <div class="text">
               <h1>Arroz</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   O Brasil é um dos maiores produtores de arroz de todo mundo.
                   Anualmente alcança, em média, 15 milhões de toneladas. O País
@@ -215,7 +216,10 @@
             </div>
             <div class="text">
               <h1>Açúcar</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   Trabalhando com exportação e produção de açúcar há mais de 10
                   anos, oferecemos: IC 45; IC 150; VHP; Orgânico Claro;
@@ -253,7 +257,10 @@
             </div>
             <div class="text">
               <h1>Feijão</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   O Feijão é um alimento rico em fero e muito consumido em todo
                   o mundo em combinação com outros alimentos. Doces e salgados
@@ -283,7 +290,10 @@
             </div>
             <div class="text">
               <h1>Milho</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   Trabalhando em parceria comercial com grandes Cooperativas e
                   distribuidores brasileiros, contamos com a expertise do
@@ -321,7 +331,10 @@
             </div>
             <div class="text">
               <h1>Soja</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   O Brasil é o segundo maior produtor de Soja do mundo. O
                   estado do Paraná, sede de nossa empresa no Brasil, é o maior
@@ -359,7 +372,10 @@
             </div>
             <div class="text">
               <h1>Bovino</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   Por muitos anos exportamos grandes quantidades de carne para
                   países da Europa e do Oriente Médio. Cortes dianteiros e
@@ -371,7 +387,7 @@
                   no mundo, resultado de décadas de investimento em tecnologia
                   que elevou não só a produtividade como também a qualidade do
                   produto brasileiro, fazendo com que ele se tornasse
-                  competitivo e chegasse ao mercado de mais de 150 países.
+                  competitivo e chegasse ao mercado de mais de 60 países.
                 </p>
                 <p class="fragment">
                   Com a possibilidades de visita a nossos frigoríficos, nos
@@ -395,7 +411,10 @@
             </div>
             <div class="text">
               <h1>Frango</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   Um dos produtos que mais temos experiência e know how. Oriente
                   Médio e Europa são exemplos de países com os quais já tivemos
@@ -434,7 +453,10 @@
             </div>
             <div class="text">
               <h1>Peixe</h1>
-              <section data-autoslide=100>
+              <section
+                data-autoslide=100
+                data-lang="pt"
+              >
                 <p class="fragment">
                   Tilápia, Tambaqui e Pacu são peixes de produção massiva no
                   Brasil e os quais podemos oferecer para o mercado
@@ -471,11 +493,21 @@
                   action="https://formspree.io/contact@dwlfoods.com"
                   method="POST"
                 >
-                  <p>
+                  <p data-lang="pt">
                     Para entrar em contato, utilize o formulário abaixo ou envie
                     um e-mail para:
                     <a href="mailto:contato@dwlfoods.com">
                       contato@dwlfoods.com
+                    </a>
+                  </p>
+
+                  <p
+                    data-lang="en"
+                    hidden
+                  >
+                    To contact us, use the form below or send an e-mail to:
+                    <a href="mailto:contact@dwlfoods.com">
+                      contact@dwlfoods.com
                     </a>
                   </p>
 
@@ -516,7 +548,7 @@
         <nav>
           <h1>Institucional</h1>
           <div>
-            <a href="#/about">Conheça a empresa</a>
+            <a href="#/institutional">Conheça a empresa</a>
           </div>
         </nav>
         <nav>
@@ -561,9 +593,10 @@
     <script src="scripts/reveal/js/reveal.js"></script>
     <script src="scripts/p5.min.js"></script>
     <script src="scripts/dwl/home.js"></script>
+    <script src="scripts/dwl/lang.js"></script>
     <script>
-      function changeSubject(sender) {
-        subject.value = sender.innerText
+      function changeSubject({textContent}) {
+        subject.value = textContent
       }
 
       Reveal.addEventListener('slidechanged', event => {
