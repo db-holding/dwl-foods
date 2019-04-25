@@ -24,6 +24,7 @@
           class="logo"
           src="images/dwl-light-logo.svg"
         >
+
         <nav>
           <a href="#/home">
             <span data-lang="pt">
@@ -173,6 +174,12 @@
             </span>
           </a>
         </nav>
+
+        <div id="langMenu">
+          <span onclick="translate('en')" class="selected">English</span>
+          <span onclick="translate('es')">Español</span>
+          <span onclick="translate('pt')">Português</span>
+        </div>
       </div>
     </header>
 
@@ -797,7 +804,17 @@
             </span>
           </h1>
           <div>
-            <a href="#/institutional">Conheça a empresa</a>
+            <a href="#/institutional">
+              <span data-lang="pt">
+                Conheça a empresa
+              </span>
+              <span
+                data-lang="en"
+                hidden
+              >
+                About the Company
+              </span>
+            </a>
           </div>
         </nav>
         <nav>
@@ -993,8 +1010,8 @@
     <script src="scripts/dwl/home.js"></script>
     <script src="scripts/dwl/lang.js"></script>
     <script>
-      function changeSubject({textContent}) {
-        subject.value = textContent
+      function changeSubject({innerText}) {
+        subject.value = innerText
       }
 
       Reveal.addEventListener('slidechanged', event => {
