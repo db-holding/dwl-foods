@@ -48,6 +48,12 @@
   font-weight: bold;
   font-size: .625em;
   margin: 0 1em .75em 0;
+  transition: color .3s linear;
+}
+
+#footer a:hover {
+  color: yellow;
+  transition: none;
 }
 
 #footer-content .space {
