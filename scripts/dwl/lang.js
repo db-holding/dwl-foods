@@ -14,20 +14,12 @@
 
 const L10N_ELEMENTS = document.querySelectorAll('[data-lang]')
 
-function hideElement(element) {
-  element.hidden = true
-}
-
-function showElement(element) {
-  element.hidden = false
-}
-
 function translate(lang) {
   for (const ELEMENT of L10N_ELEMENTS) {
     const LANG = ELEMENT.getAttribute('data-lang')
     if (LANG !== lang)
-      hideElement(ELEMENT)
+      ELEMENT.hidden = true
     else
-      showElement(ELEMENT)
+      ELEMENT.hidden = false
   }
 }
