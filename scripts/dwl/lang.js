@@ -17,7 +17,7 @@ const L10N_ELEMENTS = document.querySelectorAll('[data-lang]')
 function translate(lang) {
   for (const ELEMENT of L10N_ELEMENTS) {
     const LANG = ELEMENT.getAttribute('data-lang')
-    if (LANG !== lang)
+    if (!LANG.includes(lang))
       ELEMENT.hidden = true
     else
       ELEMENT.hidden = false
