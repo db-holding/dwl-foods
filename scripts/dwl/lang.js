@@ -15,6 +15,29 @@
 const L10N_ELEMENTS = document.querySelectorAll('[data-lang]')
 
 function translate(lang) {
+  switch (lang) {
+    case 'en':
+      menuEnglish.classList.add('selected')
+      menuPortuguese.classList.remove('selected')
+      menuSpanish.classList.remove('selected')
+      break
+
+    case 'es':
+      menuEnglish.classList.remove('selected')
+      menuPortuguese.classList.remove('selected')
+      menuSpanish.classList.add('selected')
+      break
+
+    case 'pt':
+      menuEnglish.classList.remove('selected')
+      menuPortuguese.classList.add('selected')
+      menuSpanish.classList.remove('selected')
+      break
+
+    default:
+      throw new Error('Invalid language code.')
+  }
+
   for (const ELEMENT of L10N_ELEMENTS) {
     const LANG = ELEMENT.getAttribute('data-lang')
     if (!LANG.includes(lang))

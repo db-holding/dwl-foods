@@ -74,15 +74,26 @@
 
 #langMenu span {
   background: #ea4c1e;
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    90% 100%,
-    10% 100%
-  );
   color: white;
   cursor: pointer;
-  font-size: .9em;
-  margin-left: -1em;
+  font-size: .725em;
+  font-weight: bold;
   padding: .4em 1em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#langMenu span:not(:first-child) {
+  margin-left: .4em;
+}
+
+#langMenu span:hover {
+  color: white;
+  background-color: #db072c;
+}
+
+#langMenu span.selected {
+  color: #db072c;
+  background-color: white;
+  z-index: 1;
 }
