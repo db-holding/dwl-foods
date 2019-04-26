@@ -22,4 +22,10 @@ function translate(lang) {
     else
       ELEMENT.hidden = false
   }
+
+  localStorage.setItem('lang', lang)
 }
+
+const STORED_LANG = localStorage.getItem('lang')
+if (STORED_LANG && STORED_LANG !== 'pt')
+  translate(STORED_LANG)
