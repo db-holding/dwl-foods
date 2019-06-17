@@ -40,7 +40,8 @@
             items: 1,
             loop: true,
             autoplay: true,
-            smartSpeed: 1000,
+            autoplayTimeout: 10000,
+            smartSpeed: 500,
             nav: true
         })
 
