@@ -8,89 +8,164 @@
 
 
 <url>
-  <loc>https://www.dwlfoods.com/</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <loc>https://www.dwlfoods.com/index.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.dwlfoods.com/index.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <loc>https://www.dwlfoods.com/en/index.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/negocios.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/servicos.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/produtos.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/cafe-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/frango-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/milho-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/peixe-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/arroz-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/carne-bovina-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/soja-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/acucar-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/feijao-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/suco-de-laranja-do-brasil.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/carreira.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.dwlfoods.com/contato.html</loc>
-  <lastmod>2019-06-17T16:05:05+00:00</lastmod>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/business.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/services.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/products.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-coffee-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-chicken-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-corn-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-fish-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-rice-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-beef-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-soy-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-sugar-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-bean-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/import-orange-juice-from-brazil.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/career.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.dwlfoods.com/en/contact.html</loc>
+  <lastmod>2019-09-12T17:45:24+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
